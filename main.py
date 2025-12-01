@@ -1,7 +1,7 @@
 import random
 
 def main() ->list[int]:
-    """_summary_
+    """The main function to be callled by the pipeline
 
     :return: _description_
     :rtype: list
@@ -9,5 +9,3 @@ def main() ->list[int]:
     _list = [random.randint(0,20) for i in range(50)]
 
     return _list
-
-
